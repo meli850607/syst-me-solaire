@@ -14,8 +14,13 @@ header{
   background-position: center;
   height: 100vh;
 }
-h1{
-max-width: 1140px;
-text-align: center;
-
+.row{
+  width: 1140px;
+  margin: 0 auto;
+}
+.title{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
