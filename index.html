@@ -7,8 +7,47 @@
   <title>Le système solaire</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:100,400,400i,900" rel="stylesheet">
 </head>
-<body style="background-image: url('ressources/img/systemesolaire.jpg')">
+
+    <body style="background-image: url('ressources/img/systemesolaire.jpg')">
+
   <header>
+
+    <!-- Start Nav -->
+            <nav class="navbar navbar-default appy-menu" data-spy="appy-menu">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_menu" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand scroll-section" href="index.html"><img src="assets/img/logo.png" class="img-responsive" alt=""></a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="main_menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a class="scroll-section" href="#home_banner">accueil</a></li>
+                            <li><a class="scroll-section" href="#informations">informations</a></li>
+                            <li><a class="scroll-section" href="#features">features</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="scroll-section" href="#recent-blog">Recent Blog</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="single-blog.html">Single Blog</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="scroll-section" href="#contact">contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
+            <!-- End Nav -->
+
     <nav>
 
       <div class="row">
@@ -30,5 +69,73 @@
     </ol>
   </div>
 </header>
+<section id="contact" class="padding-100" style="background-image: url(''); background-size: cover; background-position: 50% 50%;background-attachment: fixed;">
+       <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12 section-heade white text-center">
+                   <h3>contact</h3>
+                   <div class="space-25"></div>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                       <br>sed do eiusmod tempor incididunt ut labore.</p>
+                   <div class="space-50"></div>
+               </div>
+               <div class="col-md-8">
+                   <form>
+                       <div class="row">
+                           <div class="col-xs-12 col-sm-6">
+                               <div class="form-group">
+                                   <input class="form-control" type="text" id="yourname" placeholder="Enter Your Name" required>
+                               </div>
+                           </div>
+
+                           <div class="col-xs-12 col-sm-6">
+                               <div class="form-group">
+                                   <input type="email" class="form-control" id="youremail" placeholder="Enter Your Email" required>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="row">
+                           <div class="col-xs-12 col-sm-12">
+                               <div class="form-group">
+                                   <input type="text" class="form-control" id="yoursubject" placeholder="Enter Your Subject" required>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="form-group">
+                           <textarea class="form-control" id="yourmessage" rows="6" placeholder="Enter Your Message" required></textarea>
+                       </div>
+
+                       <button type="submit" class="btn btn-default center-block">submit</button>
+                   </form>
+               </div>
+               <div class="col-md-4">
+                   <ul class="list-unstyled contact-info">
+                       <li>
+                           <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                           <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                       </li>
+                       <li>
+                           <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                           <div class="text">0123456778</div>
+                       </li>
+                       <li>
+                           <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                           <div class="text"><a href="mailto:mail@appy.com">mail@appy.com</a></div>
+                       </li>
+                   </ul>
+                   <ul class="list-inline social-icons">
+                       <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                       <li class="twitter"><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                       <li class="google-plus"><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                       <li class="linkedin"><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                       <li class="pinterest"><a href="#" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+   </section>
 </body>
 </html>

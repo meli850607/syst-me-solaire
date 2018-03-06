@@ -12,6 +12,11 @@ header{
   background-position: center;
   height: 100vh;
 }
+{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .row{
   width: 1140px;
   margin-left: 50px;
@@ -22,4 +27,14 @@ header{
   word-spacing:10px;
   letter-spacing: 1px;
   margin-bottom: 30px;
+}
+.navbar-header{
+  display: none;
+
+}
+
+.background-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
