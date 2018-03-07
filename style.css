@@ -14,13 +14,13 @@ html {
 
 header {
   background-image: url(ressources/img/systemesolaire.jpg);
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   height: 100vh;
 }
 
 .row {
-  width: 1140px;
+  width: 1200px;
   margin-left: 50px;
 }
 
