@@ -9,7 +9,7 @@ html {
   /* couleur de la police */
   text-rendering: optimizeLegibility;
   /*  /// Voir PDF */
-  text-align: left;
+  text-align: left ;
 }
 
 header {
@@ -17,6 +17,12 @@ header {
   background-size:cover;
   background-position: center;
   height: 150vh;
+  margin-bottom: 50px;
+}
+section{
+  background-color: #ffeaa7;
+  text-align: center;
+
 }
 .row {
   width: 1200px;
@@ -24,11 +30,24 @@ header {
 }
 
 .text {
-  text-align: center;
-  font-size: 180%;
+  text-align: left;
+  font-size: 300%;
   word-spacing: 10px;
   letter-spacing: 1px;
   margin-bottom: 30px;
+  margin-top: 100px;
+  margin-left: 200px;
+  color: white;
+}
+.mots{
+  text-align: left;
+  font-size: 150%;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: black;
 }
 
 .appy-menu {
@@ -349,7 +368,9 @@ form{
     color: #fff;
     text-decoration: none;
 }
-
+.col-md-4{
+  text-align: center;
+}
 
 /*------------------------------
     18. END CONTACT SECTION
