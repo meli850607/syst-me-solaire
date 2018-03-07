@@ -1,5 +1,4 @@
 html{
-  background:#fff
   font-family:  ‘Lato’,‘Arial’, sans-serif;       /* police de caractère */
   font-weight : 300;                              /* épaisseur de la police */
   font-size: 20px;                                /* taille de la police */
@@ -8,15 +7,12 @@ html{
   text-align: center;
 }
 header{
+  background-image:url(ressources/img/systemesolaire.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
-{
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .row{
   width: 1140px;
   margin-left: 50px;
@@ -28,13 +24,7 @@ header{
   letter-spacing: 1px;
   margin-bottom: 30px;
 }
-.navbar-header{
+.navbar header{
   display: none;
-
-}
-
-.background-image{
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  ;
 }
