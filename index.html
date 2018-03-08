@@ -130,6 +130,8 @@
             <button type="submit" class="btn btn-default center-block">submit</button>
 
           </form>
+          <div class="row">
+
 
           <div class="col-md-4">
             <ul class="list-unstyled contact-info">
@@ -154,11 +156,34 @@
   </section>
   <!--fin contact-->
 
+ <button onclick="topFunction()" id="myBtn" title="Go to top">haut</button>
+
+<!--script retour top-->
+<script>// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} </script>
+
+
+<!-- fin script retour top-->
   <script src="ressources/js/aos.js"></script>
   <script src="ressources/js/bootstrap.min.js"></script>
   <script src="ressources/js/jquery.min.js"></script>
   <script src="ressources/js/main.js"></script>
   <script src="ressources/js/animate.css"></script>
+
 </body>
 
 </html>

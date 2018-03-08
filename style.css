@@ -9,112 +9,112 @@ html {
   /* couleur de la police */
   text-rendering: optimizeLegibility;
   /*  /// Voir PDF */
-  text-align: left ;
+  text-align: left;
 }
 
 header {
   background-image: url(ressources/img/systemesolaire.jpg);
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   height: 150vh;
   margin-bottom: 50px;
 }
-section{
+
+section {
   background-color: #f5f6fa;
   text-align: left;
 }
 
-body{
+body {
   min-width: 1000px;
 }
-
 
 /*------------------------------
     02. START PRELOADER STYLE
 ------------------------------*/
 
 .preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9999;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 .preloader .spinner {
-    margin: 0 auto;
-    width: 40px;
-    height: 40px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.preloader .spinner .cube1,
-.preloader .spinner .cube2 {
-    background-color: #fff;
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
-    animation: sk-cubemove 1.8s infinite ease-in-out;
+.preloader .spinner .cube1, .preloader .spinner .cube2 {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+  animation: sk-cubemove 1.8s infinite ease-in-out;
 }
 
 .preloader .spinner .cube2 {
-    -webkit-animation-delay: -0.9s;
-    animation-delay: -0.9s;
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
 }
 
 @-webkit-keyframes sk-cubemove {
-    25% {
-        -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5)
-    }
-    50% {
-        -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg)
-    }
-    75% {
-        -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5)
-    }
-    100% {
-        -webkit-transform: rotate(-360deg)
-    }
+  25% {
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5)
+  }
+  50% {
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg)
+  }
+  75% {
+    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5)
+  }
+  100% {
+    -webkit-transform: rotate(-360deg)
+  }
 }
 
 @keyframes sk-cubemove {
-    25% {
-        transform: translateX(42px) rotate(-90deg) scale(0.5);
-        -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
-    }
-    50% {
-        transform: translateX(42px) translateY(42px) rotate(-179deg);
-        -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
-    }
-    50.1% {
-        transform: translateX(42px) translateY(42px) rotate(-180deg);
-        -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
-    }
-    75% {
-        transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-        -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-    }
-    100% {
-        transform: rotate(-360deg);
-        -webkit-transform: rotate(-360deg);
-    }
+  25% {
+    transform: translateX(42px) rotate(-90deg) scale(0.5);
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+  }
+  50% {
+    transform: translateX(42px) translateY(42px) rotate(-179deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+  }
+  50.1% {
+    transform: translateX(42px) translateY(42px) rotate(-180deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+  }
+  75% {
+    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+  }
+  100% {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+  }
 }
-
 
 /*------------------------------
     - End Preloader Style
 ------------------------------*/
+
 .row {
   width: 1140px;
   margin-left: 20px;
@@ -130,7 +130,8 @@ body{
   margin-left: 200px;
   color: white;
 }
-.mots{
+
+.mots {
   text-align: left;
   font-size: 150%;
   word-spacing: 10px;
@@ -146,333 +147,401 @@ body{
 ------------------------------*/
 
 .appy-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    border-radius: 0;
-    border: none;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    background: -moz-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background: -webkit-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background: -ms-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  border-radius: 0;
+  border: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .appy-menu.sticky {
-    background: -moz-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background: -webkit-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background: -ms-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    opacity: 0.9;
-    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.8);
-    padding: 0;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.9;
+  box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.8);
+  padding: 0;
 }
 
 .appy-menu ul li a {
-    color: #fff !important;
-    font-size: 12px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: 700;
-    position: relative;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  color: #fff !important;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .appy-menu ul li .dropdown-menu li a {
-    font-size: 13px;
-    letter-spacing: 2px;
-    padding: 8px 15px;
-    text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding: 8px 15px;
+  text-transform: capitalize;
 }
 
 .appy-menu ul li .dropdown-menu li.active a {
-    background: #fff;
-    color: #bf095d !important;
+  background: #fff;
+  color: white !important;
 }
 
 .appy-menu ul li.dropdown>a {
-    background: transparent !important;
-    /*color: #bf095d !important;*/
+  background: transparent !important;
+  /*color: #bf095d !important;*/
 }
 
 .appy-menu ul li .dropdown-menu>a:after {
-    content: '';
-    left: 0;
-    right: 0;
-    bottom: 13px;
-    width: 90%;
-    margin: 0 auto;
-    position: absolute;
-    height: 25px;
-    border-radius: 20px;
-    background: #ffffff;
-    z-index: -1;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  content: '';
+  left: 0;
+  right: 0;
+  bottom: 13px;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  height: 25px;
+  border-radius: 20px;
+  background: #ffffff;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.appy-menu ul.nav>li.active>a:after,
-.appy-menu ul.nav>li>a:hover:after {
-    content: '';
-    left: 0;
-    right: 0;
-    bottom: 13px;
-    width: 90%;
-    margin: 0 auto;
-    position: absolute;
-    height: 25px;
-    border-radius: 20px;
-    background: #ffffff;
-    z-index: -1;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+.appy-menu ul.nav>li.active>a:after, .appy-menu ul.nav>li>a:hover:after {
+  content: '';
+  left: 0;
+  right: 0;
+  bottom: 13px;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  height: 25px;
+  border-radius: 20px;
+  background: #ffffff;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .appy-menu ul li .dropdown-menu {
-    background: -moz-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background: -webkit-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background: -ms-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    padding: 0;
-    border: 0;
-    border-radius: 0;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0;
+  border: 0;
+  border-radius: 0;
 }
 
-.appy-menu .navbar-nav>.active>a,
-.appy-menu .navbar-nav>.active>a:focus,
-.appy-menu .navbar-nav>.active>a:hover {
-    background: none;
-    color: #bf095d !important;
+.appy-menu .navbar-nav>.active>a, .appy-menu .navbar-nav>.active>a:focus, .appy-menu .navbar-nav>.active>a:hover {
+  background: none;
+  color: black !important;
 }
 
 .appy-menu .navbar-brand {
-    color: #fff;
-    font-size: 30px;
-    font-weight: 300;
+  color: black;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .appy-menu ul li a:hover {
-    color: #bf095d !important;
+  color: black !important;
 }
 
 .appy-menu .navbar-brand {
-    height: auto;
-    max-width: 125px;
-    padding: 5px 15px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  height: auto;
+  max-width: 125px;
+  padding: 5px 15px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .appy-menu.sticky .navbar-brand {
-    padding: 15px;
+  padding: 15px;
 }
 
 .appy-menu.navbar-default .navbar-toggle {
-    background: #fff;
-    border-color: #fff;
-    margin-top: 13px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  background: #fff;
+  border-color: #fff;
+  margin-top: 13px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .appy-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #bf095d;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  background-color: white;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .appy-menu.navbar-default .navbar-toggle.collapsed {
-    background: none;
+  background: none;
 }
 
 .appy-menu.navbar-default .navbar-toggle.collapsed .icon-bar {
-    background-color: #black;
+  background-color: #black;
 }
 
 .dropdown-submenu {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-submenu>.dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-top: 0px !important;
+  top: 0;
+  left: 100%;
+  margin-top: 0px !important;
 }
 
 .dropdown-submenu:hover>.dropdown-menu {
-    display: block;
+  display: block;
 }
 
 .dropdown-submenu>a:after {
-    display: block;
-    content: " ";
-    float: right;
-    width: 0;
-    height: 0;
-    border-color: transparent;
-    border-style: solid;
-    border-width: 5px 0 5px 5px;
-    border-left-color: #ccc;
-    margin-top: 5px;
-    margin-right: -10px;
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
 }
 
 .dropdown-submenu:hover>a:after {
-    border-left-color: #fff;
+  border-left-color: #fff;
 }
 
 .dropdown-submenu.pull-left {
-    float: none;
+  float: none;
 }
 
 .dropdown-submenu.pull-left>.dropdown-menu {
-    left: -100%;
-    margin-left: 10px;
-    -webkit-border-radius: 6px 0 6px 6px;
-    -moz-border-radius: 6px 0 6px 6px;
-    border-radius: 6px 0 6px 6px;
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
 }
 
 @media (max-width: 767px) {
-    .appy-menu .navbar-brand {
-        padding: 15px;
-    }
-    .appy-menu ul li a {
-        text-align: center;
-    }
-    .appy-menu ul li.active a:after,
-    .appy-menu ul li a:hover:after {
-        bottom: 8px !important;
-    }
-    .appy-menu ul li.open>a:after,
-    .appy-menu ul li.open>a:hover:after {
-        bottom: 8px !important;
-    }
+  .appy-menu .navbar-brand {
+    padding: 15px;
+  }
+  .appy-menu ul li a {
+    text-align: center;
+  }
+  .appy-menu ul li.active a:after, .appy-menu ul li a:hover:after {
+    bottom: 8px !important;
+  }
+  .appy-menu ul li.open>a:after, .appy-menu ul li.open>a:hover:after {
+    bottom: 8px !important;
+  }
 }
 
 @media (min-width: 768px) {
-    .appy-menu {
-        padding: 30px 0;
-        background: transparent;
-    }
-    .appy-menu.sticky .navbar-nav>li>a {
-        padding: 20px 15px;
-    }
-    .appy-menu.sticky ul li.active a:after,
-    .appy-menu.sticky ul li a:hover:after {
-        bottom: 18px;
-    }
-    .appy-menu.sticky ul li.open>a:after,
-    .appy-menu.sticky ul li.open>a:hover:after {
-        bottom: 18px;
-    }
-    .appy-menu .nav li.dropdown:hover>.dropdown-menu {
-        display: block;
-    }
+  .appy-menu {
+    padding: 30px 0;
+    background: transparent;
+  }
+  .appy-menu.sticky .navbar-nav>li>a {
+    padding: 20px 15px;
+  }
+  .appy-menu.sticky ul li.active a:after, .appy-menu.sticky ul li a:hover:after {
+    bottom: 18px;
+  }
+  .appy-menu.sticky ul li.open>a:after, .appy-menu.sticky ul li.open>a:hover:after {
+    bottom: 18px;
+  }
+  .appy-menu .nav li.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
 }
 
 /*------------------------------
     03. END NAV STYLE
 ------------------------------*/
 
-
 /*------------------------------
     18. START CONTACT SECTION
 ------------------------------*/
-form{
+
+@media (max-width: 767px) {
+  form {
+    width: auto;
+  }
+  #contact {
+    width: auto;
+  }
+}
+
+form {
   border: 2px solid black;
   border-radius: 20px;
   margin: 50px 50px;
   background-color: #ced6e0;
-  padding: 20px 40px;
+  padding: 25px 25px;
 }
 
 #contact {
-    position: relative;
+  position: relative;
 }
 
 #contact .form-control {
-    width: 500px;
-    height: 50px;
-    padding: 10px 15px;
-    border:10px;
-    border-radius: 20px;
-    color: black;
-    letter-spacing: 2px;
-    font-weight: 300;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  width: 80%;
+  height: 50px;
+  padding: 10px 15px;
+  border: 10px;
+  border-radius: 20px;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 300;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 #contact .form-control:focus {
-    box-shadow: none;
-
+  box-shadow: none;
 }
 
 #contact textarea.form-control {
-    height: auto;
+  height: auto;
 }
 
 #contact .btn-default {
-    border-radius: 20px;
-    border: 10px;
-    margin: 20px 0;
-    font-weight: 600;
-    width: 100%;
+  border-radius: 20px;
+  border: 10px;
+  margin: 20px 0;
+  font-weight: 600;
+  width: 100%;
 }
 
 #contact .btn-default:hover {
-    color: #bf095d;
+  color: #bf095d;
 }
 
 #contact .contact-info li {
-    position: relative;
-    overflow-y: hidden;
-    margin-bottom: 20px;
-    color: #fff;
+  position: relative;
+  overflow-y: hidden;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 #contact .contact-info li .icon {
-    width: 50px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    font-size: 20px;
-    float: left;
-    color: black;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 20px;
+  float: left;
+  color: black;
 }
 
 #contact .contact-info li .text {
-    padding: 5px 10px;
-    margin-left: 30px;
+  padding: 5px 10px;
+  margin-left: 30px;
 }
 
 #contact .contact-info li .text a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
-.col-md-8{
+.col-md-8 {
   width: 100%;
 }
 
 /*------------------------------
     18. END CONTACT SECTION
 ------------------------------*/
+
+.ion-ios-telephone {
+  font-size: 45px;
+  color: red;
+}
+
+.ion-social-facebook {
+  font-size: 45px;
+  color: blue;
+}
+
+.ion-social-twitter {
+  font-size: 45px;
+}
+
+.ion-ios-email {
+  font-size: 45px;
+  color: black;
+}
+
+/*-------------bouton retour top----------*/
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: 10px;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: white;
+  /* Set a background color */
+  color: black;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+  border-color: black;
+}
+
+#myBtn:hover {
+  background-color: grey;
+  /* Add a dark-grey background on hover */
+}
+
+/*-------------fin bouton retour top---------------*/
