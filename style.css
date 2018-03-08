@@ -28,10 +28,7 @@ body{
   min-width: 1000px;
 }
 
-ol{
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+
 /*------------------------------
     02. START PRELOADER STYLE
 ------------------------------*/
@@ -119,8 +116,8 @@ ol{
     - End Preloader Style
 ------------------------------*/
 .row {
-  width: 1200px;
-  margin-left: auto;
+  width: 1140px;
+  margin-left: 20px;
 }
 
 .text {
@@ -400,10 +397,9 @@ ol{
 form{
   border: 2px solid black;
   border-radius: 20px;
-  position: center;
-  margin: 100px 100px;
+  margin: 50px 50px;
   background-color: #ced6e0;
-  padding: 20px 20px;
+  padding: 20px 40px;
 }
 
 #contact {
@@ -473,6 +469,9 @@ form{
     text-decoration: none;
 }
 
+.col-md-8{
+  width: 100%;
+}
 
 /*------------------------------
     18. END CONTACT SECTION
