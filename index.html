@@ -5,15 +5,24 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Lato:100,400,400i,900" rel="stylesheet">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Le système solaire</title>
 </head>
 
 <body>
- <div id="top">
+  <!-- Start Preloader -->
+  <div class="preloader">
+    <div class="spinner">
+      <div class="cube1"></div>
+      <div class="cube2"></div>
+    </div>
+  </div>
+  <!-- End Preloader -->
+  <div id="top">
 
- </div>
+  </div>
   <header>
 
     <!-- Start Nav -->
@@ -59,8 +68,10 @@
 
   <section>
     <div class="row" id="informations">
-      <p>Le système solaire est composé de 8 planètes,certaines d'entre elles ont des satellites.La Terre a une lune, Mars en a 2, Jupiter en a 69, Saturne en a 60, Uranus en a 27, et Neptune en a 14.
-      </p>
+
+      <p>Le système solaire est un système planétaire composé d'une étoile, de huit planètes et de milliards de corps dont seulement une infime partie est connue. Il s'agit de notre environnement proche, en banlieue de notre galaxie, la voie lactée.
+        Du soleil, en passant par les planètes telluriques comme Mercures ou Mars, ou les géantes gazeuses comme Jupiter ou Saturne avec leurs magnifiques anneaux et leur dizaines de satellites,et jusqu'à Éris au fin fond du système solaire, sans oublier les astéorïdes, les comètes et les planètes naines comme Pluton ou Cérès.</p><br>
+        <p>Les planètes les plus connues orbites autour du soleil dans l'ordre suivant:</p>
       <ol>
         <li>Mercure</li>
         <li>Venus</li>
@@ -71,7 +82,20 @@
         <li>Uranus</li>
         <li>Neptune</li>
       </ol>
+      <br>
+      <p>Actuellement le système solaire compte:</p><br>
+      <ol>
+        <li>Le Soleil</li>
+        <li>8 planètes (4 telluriques et 4 gazeuses)</li>
+        <li>5 planètes naines</li>
+        <li>175 satellites orbitant autour d'une planète (ainsi que 3 autres en attente de confirmation)</li>
+        <li>9 satellites orbitant autour d'une planète naine (dont 1 en attente d'un nom)</li>
+        <li>715 000 astéroïdes</li>
+        <li>212 satellites orbitant autour d'un astéroïde</li>
+        <li>3 400 comètes</li>
+      </ol>
     </div>
+
   </section>
 
   <!--debut contact-->
@@ -86,69 +110,97 @@
             <br>sed do eiusmod tempor incididunt ut labore.</p>
           <div class="space-50"></div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-12">
           <form>
             <div class="row">
-              <div class="col-xs-12 col-sm-6">
-                <div class="form-group">
-                  <input class="form-control" type="text" id="yourname" placeholder="Enter Your Name" required>
-                </div>
+
+              <div class="form-group">
+                <input class="form-control" type="text" id="yourname" placeholder="Entrez votre nom" required>
+
               </div>
 
-              <div class="col-xs-12 col-sm-6">
-                <div class="form-group">
-                  <input type="email" class="form-control" id="youremail" placeholder="Enter Your Email" required>
-                </div>
+
+              <div class="form-group">
+                <input type="email" class="form-control" id="youremail" placeholder="Entrez votre Email" required>
+
               </div>
             </div>
 
             <div class="row">
-              <div class="col-xs-12 col-sm-12">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="yoursubject" placeholder="Enter Your Subject" required>
-                </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" id="yoursubject" placeholder="Entrez votre sujet" required>
+
+              </div>
+            </div>
+            <div class="row">
+
+              <div class="form-group">
+                <textarea class="form-control" id="yourmessage" rows="6" placeholder="Entrez votre message" required></textarea>
               </div>
             </div>
 
-            <div class="form-group">
-              <textarea class="form-control" id="yourmessage" rows="6" placeholder="Enter Your Message" required></textarea>
-            </div>
 
-            <button type="submit" class="btn btn-default center-block">submit</button>
+            <button type="submit" class="btn btn-default center-block">Envoyer</button>
+
           </form>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-unstyled contact-info">
-            <li>
-              <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-              <div class="mots">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-            </li>
-            <li>
-              <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
-              <div class="mots">0255225548</div>
-            </li>
-            <li>
-              <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-              <div class="mots"><a href="mars@hotmail.fr">mars@hotmail.fr</a></div>
-            </li>
-          </ul>
-          <ul class="list-inline social-icons">
-            <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li class="twitter"><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li class="google-plus"><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-            <li class="linkedin"><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li class="pinterest"><a href="#" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-<!--fin contact-->
 
+
+
+
+
+
+  </section>
+  <!--fin contact-->
+  <footer>
+    <div class="col-md-12">
+      <ul class="list-unstyled contact-info">
+
+        <li>
+          <div class="icon"><i class="ion-ios-telephone" aria-hidden="true"></i></div>
+          <div class="mots">02.55.22.55.48</div>
+        </li>
+        <li>
+          <div class="icon"><i class="ion-ios-email" aria-hidden="true"></i></div>
+          <div class="mots"><a href="mars@hotmail.fr">mars@hotmail.fr</a></div>
+        </li>
+      </ul>
+      <ul class="list-inline social-icons">
+        <li class="facebook"><a href="#" target="_blank"><i class="ion-social-facebook" aria-hidden="true"></i></a></li>
+        <li class="twitter"><a href="#" target="_blank"><i class="ion-social-twitter" aria-hidden="true"></i></a></li>
+        <li class="email"><a href="#" target="_blank"><i class="ion-ios-email" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+ <button onclick="topFunction()" id="myBtn" title="Go to top">haut</button>
+
+<!--script retour top-->
+<script>// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} </script>
+
+
+<!-- fin script retour top-->
   <script src="ressources/js/aos.js"></script>
   <script src="ressources/js/bootstrap.min.js"></script>
   <script src="ressources/js/jquery.min.js"></script>
   <script src="ressources/js/main.js"></script>
+  <script src="ressources/js/animate.css"></script>
+  <script src="ressources/js/jquery.counterup.js"></script>
 </body>
 
 </html>
