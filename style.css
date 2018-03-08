@@ -23,12 +23,18 @@ header {
 section {
   background-color: #f5f6fa;
   text-align: left;
+  height: 100vh;
 }
 
 body {
   min-width: 1000px;
 }
-
+p{
+  font-size: 180%;
+}
+ol{
+  font-size: 180%;
+}
 /*------------------------------
     02. START PRELOADER STYLE
 ------------------------------*/
@@ -490,7 +496,6 @@ footer{
 .ion-ios-telephone {
   font-size: 45px;
   color: red;
-  text-align: left;
 }
 
 .ion-social-facebook {
