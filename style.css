@@ -131,16 +131,6 @@ body {
   color: white;
 }
 
-.mots {
-  text-align: left;
-  font-size: 150%;
-  word-spacing: 10px;
-  letter-spacing: 1px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  margin-left: 20px;
-  color: black;
-}
 
 /*------------------------------
     03. START NAV STYLE
@@ -396,16 +386,6 @@ body {
 /*------------------------------
     18. START CONTACT SECTION
 ------------------------------*/
-
-@media (max-width: 767px) {
-  form {
-    width: auto;
-  }
-  #contact {
-    width: auto;
-  }
-}
-
 form {
   border: 2px solid black;
   border-radius: 20px;
@@ -478,9 +458,10 @@ form {
 #contact .contact-info li .text a {
   color: #fff;
   text-decoration: none;
+  text-align: center;
 }
 
-.col-md-8 {
+.col-md-12 {
   width: 100%;
 }
 
@@ -488,9 +469,28 @@ form {
     18. END CONTACT SECTION
 ------------------------------*/
 
+
+
+footer{
+  text-align: center;
+
+}
+
+.mots {
+  text-align: center;
+  font-size: 150%;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: black;
+}
+
 .ion-ios-telephone {
   font-size: 45px;
   color: red;
+  text-align: left;
 }
 
 .ion-social-facebook {
