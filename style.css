@@ -550,3 +550,23 @@ footer{
 }
 
 /*-------------fin bouton retour top---------------*/
+@media(max-width: 768px)
+ {
+
+} (max-width: 767px) {
+  section{
+
+  }
+  header{
+
+  }
+  body{
+
+  }
+  nav{
+
+  }
+  footer{
+
+  }
+}
