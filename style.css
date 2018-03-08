@@ -120,7 +120,7 @@ ol{
 ------------------------------*/
 .row {
   width: 1200px;
-  margin-left: 50px;
+  margin-left: auto;
 }
 
 .text {
@@ -304,7 +304,7 @@ ol{
 }
 
 .appy-menu.navbar-default .navbar-toggle.collapsed .icon-bar {
-    background-color: #fff;
+    background-color: #black;
 }
 
 .dropdown-submenu {
@@ -398,10 +398,12 @@ ol{
     18. START CONTACT SECTION
 ------------------------------*/
 form{
-  border: 10px;
+  border: 2px solid black;
   border-radius: 20px;
-  position: relative;
+  position: center;
   margin: 100px 100px;
+  background-color: #ced6e0;
+  padding: 20px 20px;
 }
 
 #contact {
@@ -409,12 +411,12 @@ form{
 }
 
 #contact .form-control {
-    width: 1000px;
+    width: 500px;
     height: 50px;
     padding: 10px 15px;
     border:10px;
     border-radius: 20px;
-    color: #fff;
+    color: black;
     letter-spacing: 2px;
     font-weight: 300;
     -webkit-transition: all 0.3s ease;
