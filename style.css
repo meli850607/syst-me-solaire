@@ -35,6 +35,9 @@ p{
 ol{
   font-size: 150%;
 }
+h1{
+  text-transform: uppercase;
+}
 /*------------------------------
     02. START PRELOADER STYLE
 ------------------------------*/
