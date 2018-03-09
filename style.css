@@ -11,20 +11,10 @@ html {
   /*  /// Voir PDF */
   text-align: left;
 }
-
-header {
-  background-image: url(ressources/img/systemesolaire.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 150vh;
-  margin-bottom: 50px;
-}
 .row {
-
-  margin: 0 auto;
+  width: 1140px;
+  margin-left: 20px;
 }
-
-
 
 .text {
   text-align: left;
@@ -35,6 +25,14 @@ header {
   margin-top: 100px;
   margin-left: 200px;
   color: white;
+}
+
+header {
+  background-image: url(ressources/img/systemesolaire.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  margin-bottom: 50px;
 }
 
 section {
@@ -144,6 +142,7 @@ h1 {
 /*------------------------------
     - End Preloader Style
 ------------------------------*/
+
 
 /*------------------------------
     03. START NAV STYLE
@@ -555,16 +554,3 @@ footer {
 }
 
 /*-------------fin bouton retour top---------------*/
-@media (min-width:768px) {
-  .toto{
-    width: 1140px;
-
-  }
-}
-
-@media (max-width:767px){
-  .toto{
-    width: 200px;
-    margin-bottom: 200px;
-  }
-}
