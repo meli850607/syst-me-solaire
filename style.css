@@ -175,7 +175,7 @@ ol{
 }
 
 .appy-menu ul li a {
-  color: #fff !important;
+  color: grey !important;
   font-size: 12px;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -304,7 +304,7 @@ ol{
 }
 
 .appy-menu.navbar-default .navbar-toggle.collapsed .icon-bar {
-  background-color: #black;
+  background-color: black;
 }
 
 .dropdown-submenu {
