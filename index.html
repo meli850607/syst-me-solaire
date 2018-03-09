@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css" />
@@ -67,13 +68,13 @@
     </div>
   </header>
 
-
   <section>
     <div class="row" id="informations">
 
-      <p>Le système solaire est un système planétaire composé d'une étoile, de huit planètes et de milliards de corps dont seulement une infime partie est connue. Il s'agit de notre environnement proche, en banlieue de notre galaxie, la voie lactée.
-        Du soleil, en passant par les planètes telluriques comme Mercures ou Mars, ou les géantes gazeuses comme Jupiter ou Saturne avec leurs magnifiques anneaux et leur dizaines de satellites,et jusqu'à Éris au fin fond du système solaire, sans oublier les astéorïdes, les comètes et les planètes naines comme Pluton ou Cérès, le système solaire est très vaste.</p><br>
-        <p>Les planètes les plus connues orbites autour du soleil dans l'ordre suivant:</p>
+      <p>Le système solaire est un système planétaire composé d'une étoile, de huit planètes et de milliards de corps dont seulement une infime partie est connue. Il s'agit de notre environnement proche, en banlieue de notre galaxie, la voie lactée. Du soleil,
+        en passant par les planètes telluriques comme Mercures ou Mars, ou les géantes gazeuses comme Jupiter ou Saturne avec leurs magnifiques anneaux et leur dizaines de satellites,et jusqu'à Éris au fin fond du système solaire, sans oublier les astéorïdes,
+        les comètes et les planètes naines comme Pluton ou Cérès, le système solaire est très vaste.</p><br>
+      <p>Les planètes les plus connues orbites autour du soleil dans l'ordre suivant:</p>
       <ol>
         <li>Mercure</li>
         <li>Venus</li>
@@ -121,7 +122,6 @@
 
               </div>
 
-
               <div class="form-group">
                 <input type="email" class="form-control" id="youremail" placeholder="Entrez votre Email" required>
 
@@ -142,15 +142,9 @@
               </div>
             </div>
 
-
             <button type="submit" class="btn btn-default center-block">Envoyer</button>
 
           </form>
-
-
-
-
-
 
   </section>
   <!--fin contact-->
@@ -174,29 +168,33 @@
       </ul>
     </div>
   </footer>
+  <!--bouton retour top-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="ion-eject"></i></button>
+  <!--bouton retour top-->
+  <!--script retour top-->
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
 
- <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="ion-eject"></i></button>
-
-<!--script retour top-->
-<script>// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("myBtn").style.display = "block";
-    } else {
+      } else {
         document.getElementById("myBtn").style.display = "none";
+      }
     }
-}
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-} </script>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
 
 
-<!-- fin script retour top-->
+  <!-- fin script retour top-->
   <script src="ressources/js/aos.js"></script>
   <script src="ressources/js/bootstrap.min.js"></script>
   <script src="ressources/js/jquery.min.js"></script>
