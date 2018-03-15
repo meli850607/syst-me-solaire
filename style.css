@@ -29,6 +29,7 @@ html {
 
 header {
   background-image: url(ressources/img/systemesolaire.jpg);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 150vh;
